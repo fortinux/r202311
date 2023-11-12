@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Página principal</title>
+    <meta name="description" content="Página principal">
+    <meta name="keywords" content="HTML template - plantilla">
+</head>
+<body>
+    {% extends "base.html" %}
+    {% block title %}Página 404{% endblock %}
+    {% block content %}
+    <h2>La página que buscas no se ha encontrado.</h2>
+    <p>Busca nuevamente. Gracias.</p>
+    {% endblock %}
+</body>
+</html>
